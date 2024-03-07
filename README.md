@@ -1,6 +1,16 @@
-# This is a basic test setup for Epicodus Code School for the computer science unit
+# Intro to Algorithms
 
-### Goal: build small logic-based applications to try out new concepts. These applications will not have a UI. Instead, we will use a test-driven environment with JavaScript to build out these applications.
+### Content:
+* Binary Search Algorithm
+* Insertion Sort
+* Selection sort
+* Bubble sort
+* Merge sort
+* Quicksort
+* Linked Lists
+* Heaps
+* Tries
+* Memoization
 
 ### Setup:
 * Make a new repo with this template.
