@@ -7,10 +7,10 @@
 * Bubble sort
 * Merge sort
 * Quicksort
-* Linked Lists
-* Heaps
+<!-- * Linked Lists -->
+<!-- * Heaps
 * Tries
-* Memoization
+* Memoization -->
 
 ### Setup:
 * Make a new repo with this template.
