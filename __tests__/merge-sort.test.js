@@ -11,5 +11,11 @@ describe('merge', () => {
     const rightArr = [6];
     expect(merge(leftArr, rightArr)).toEqual([3,6]);
   });
+  test('it will merge and sort two arrays of one element each', () => {
+    const leftArr = [6];
+    const rightArr = [3];
+    expect(merge(leftArr, rightArr)).toEqual([3,6]);
+  });
+  
 
 });

@@ -2,7 +2,12 @@
 
 export function merge(leftArr, rightArr) {
   let mergedArray = [];
-  mergedArray.push(leftArr[0]);
-  mergedArray.push(rightArr[0]);
+  if (leftArr[0] > rightArr[0]) {
+    mergedArray.push(rightArr[0]);
+    mergedArray.push(leftArr[0]);
+  } else {
+    mergedArray.push(leftArr[0]);
+    mergedArray.push(rightArr[0]);
+  }
   return mergedArray;
 }
